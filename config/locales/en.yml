@@ -242,7 +242,7 @@ en:
   enter_your_name: Enter your name!
   errors:
      bigbluebutton:
-      help: Please make sure the proper steps have been taken. <a href="%{doc_link}">Learn more</a>
+    help: Please make sure the proper steps have been taken. <a href="%{doc_link}">Learn more</a>
       message: Invalid NaukaNet Endpoint and Secret
       title: Server Error
     internal:
@@ -324,7 +324,7 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "Welcome to your class manager centre and student invitations. You’re class data base, lessons recording will all be saved for you here.<br>Open Home page and start the adventure within you’re virtual school."
+    about: "Welcome to your class manager centre and student invitations. You’re class data base, lessons recording will all be saved for you here.<br>Open Home page and start the adventure within you’re %{href}."
     welcome: Welcome to NaukaNet.
     video: Video tutorial soon
     upgrade: Show me how to upgrade to 2.0!
