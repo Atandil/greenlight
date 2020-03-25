@@ -34,9 +34,9 @@ pl_PL:
       authentication:
         disabled: Wyłączone
         enabled: Włączone
-        info: Pozwól tylko uwierzytelnionym użytkownikom dołączyć do pokoju
-        title: Wymagaj uwierzytelnienia dla pokoi
-        user-info: "Aby dołączyć do tego pokoju, musisz się zalogować do Zarządzania Klasami"
+        info: Pozwól tylko uwierzytelnionym użytkownikom dołączyć do klasy
+        title: Wymagaj uwierzytelnienia dla klas
+        user-info: "Aby dołączyć do tego klasy, musisz się zalogować do Zarządzania Klasami"
       branding:
         change: Zmień obraz
         info: "Zmień logo, które pojawia się w lewym górnym rogu"
@@ -55,7 +55,7 @@ pl_PL:
       recording_visibility:
         info: Ustaw domyślną widoczność nowych nagrań
         title: Domyślna widoczność nagrań
-        warning: To ustawienie będzie zastosowane tylko do nie uruchomionych pokoi
+        warning: To ustawienie będzie zastosowane tylko do nie uruchomionych klas
       registration:
         info: Zmień sposób rejestracji na stronie
         title: Metoda rejestracji
@@ -64,8 +64,8 @@ pl_PL:
           invite: Dołącz przez Zaproszenie
           open: Otwarta rejestracja
       rooms:
-        info: "Ogranicz liczbę pokoi, które może posiadać użytkownik (w tym pokój domowy). To ustawienie nie dotyczy administratorów."
-        title: Liczba pokoi na użytkownika
+        info: "Ogranicz liczbę klas, które może posiadać użytkownik. To ustawienie nie dotyczy administratorów."
+        title: Liczba klas na użytkownika
       subtitle: Dostosuj Zarządzanie Klasami
       title: Ustawienia Strony
     flash:
@@ -86,7 +86,7 @@ pl_PL:
       title: Nagrania
       no_recordings: Na tym serwerze nie ma żadnych nagrań
     roles:
-      can_create_rooms: Może tworzyć pokoje
+      can_create_rooms: Może tworzyć klasy
       delete: Usuń rolę
       invalid_create: Wystąpił problem przy tworzeniu roli. Sprawdź proszę wartości i spróbuj ponownie
       invalid_order: Wystąpił problem z aktualizacją priorytetów roli. Sprawdź proszę wartości i spróbuj ponownie
@@ -277,7 +277,7 @@ pl_PL:
         subtitle: "Uprawnienia przydzielono"
       verify_email:
         welcome: "Witaj w osobistej przestrzeni, %{name}!"
-        success: "Wykorzystując %{bigbluebutton}, możesz tworzyć własne pokoje do prowadzenia sesji i współpracy z innymi."
+        success: "Wykorzystując %{bigbluebutton}, możesz tworzyć własne klasy do prowadzenia sesji i współpracy z innymi."
         username: "Twoja nazwa użytkownika to %{email}."
         verify: "Aby zweryfikować swoje konto, kliknij przycisk poniżej."
         verify_text: 'Aby zweryfikować swoje konto, wystarczy kliknąć ten link: %{url}'
@@ -295,13 +295,13 @@ pl_PL:
       title: Utwórz nową rolę
     create_room:
       access_code: Kod dostępu
-      access_code_placeholder: Generuj opcjonalny kod dostępu dla tego pokoju
-      auto_join: Automatycznie dołącz mnie do pokoju
-      create: Stwórz pokój
-      free_delete: Możesz w dowolnym momencie usunąć ten pokój.
-      name_placeholder: Wprowadź nazwę pokoju...
-      not_blank: Nazwa pokoju nie może być pusta.
-      title: Stwórz nowy pokój
+      access_code_placeholder: Generuj opcjonalny kod dostępu dla tego klasy
+      auto_join: Automatycznie dołącz mnie do klasy
+      create: Stwórz klasę
+      free_delete: Możesz w dowolnym momencie usunąć tą klasę.
+      name_placeholder: Wprowadź nazwę klasy...
+      not_blank: Nazwa klasy nie może być pusta.
+      title: Stwórz nowy klasę
     delete_account:
       confirm: "Czy na pewno chcesz usunąć to konto?"
       delete: "Jestem pewien, usuń to konto."
@@ -309,9 +309,9 @@ pl_PL:
       warning: Decyzja jest ostateczna. <b>Nie</b> będziesz w stanie odzyskać powiązanych danych.
     delete_room:
       confirm: "Czy jesteś pewny że chcesz usunąć %{room}?"
-      delete: "Jestem pewien, usuń ten pokój."
+      delete: "Jestem pewien, usuń tą klasę."
       keep: Zostawiam go.
-      warning: <b>Nie</b> będziesz w stanie odzyskać tego pokoju
+      warning: <b>Nie</b> będziesz w stanie odzyskać tego klasy
       recording_warning: "ani żadnego z %{recordings_num} powiązanych nagrań."
     invite_user:
       email_placeholder: Wprowadź adresy e-mail użytkowników (oddzielone przecinkami)
@@ -324,17 +324,17 @@ pl_PL:
       forgot_password: "Zapomniane hasło?"
     rename_recording:
     room_settings:
-      title: Ustawienia pokoju
-      update: Aktualizuj ustawienia pokoju
+      title: Ustawienia klasy
+      update: Aktualizuj ustawienia klasy
       client: Wybierz typ klienta
       join_moderator: Użytkownicy dołączają jako moderatorzy
       mute: "Wycisz użytkowników, gdy dołączą"
       require_approval: Wymagaj zgody moderatora przed dołączeniem
       start: Pozwalaj dowolnemu użytkownikowi na rozpoczęcie spotkania
-      footer_text: Dostosowanie do Twojego pokoju można wykonać w dowolnym momencie.
+      footer_text: Dostosowanie do Twojego klasy można wykonać w dowolnym momencie.
     rename_room:
-      name_placeholder: Wprowadź nową nazwę pokoju...
-  name_update_success: Nazwa pokoju została pomyślnie zmieniona!
+      name_placeholder: Wprowadź nową nazwę klasy...
+  name_update_success: Nazwa klasy została pomyślnie zmieniona!
   no_user_email_exists: "Brak określonego użytkownika z określonym adresem e-mail. Upewnij się, że wpisałeś go poprawnie."
   omniauth_error: Wystąpił błąd podczas uwierzytelniania z wykorzystaniem omniauth. Spróbuj ponownie lub skontaktuj się z administratorem!
   omniauth_specific_error: "Wystąpił błąd %{error}podczas autoryzacji omniauth. Spróbuj ponownie lub skontaktuj się z administratorem"
@@ -359,7 +359,7 @@ pl_PL:
   recording:
     all_recordings: Wszystkie nagrania
     email: Prześlij emailem nagranie.
-    no_recordings: "Ten pokój nie ma %{inject}nagrań."
+    no_recordings: "Ta klasa nie ma %{inject}nagrań."
     no_user_recordings: Obecnie nie masz żadnych nagrań.
     no_matched_recordings: "Brak %{inject} nagrań powiązanych z twoim wyszukiwaniem."
     recorded_on: "Nagrano dn. %{date}"
@@ -386,7 +386,7 @@ pl_PL:
     banned:
       fail: "Nie masz dostępu do tej aplikacji. Jeśli uważasz, że to pomyłka, skontaktuj się z administratorem."
     deprecated:
-      new_signin: Wybierz nową metodę logowania dla swojego konta. Wszystkie twoje pokoje ze starego konta zostaną przeniesione na nowe konto
+      new_signin: Wybierz nową metodę logowania dla swojego konta. Wszystkie twoje klasy ze starego konta zostaną przeniesione na nowe konto
       twitter_signin: "Logowanie za pomocą Twittera jest w trakcie wycofywania z użytkowania i zostanie usunięte w następnej wersji. Kliknij <a href=\"%{link}\">tutaj</a> aby przenieść swoje konto do nowej metody uwierzytelniania."
       twitter_signup: Rejestracja za pośrednictwem Twittera została wycofana. Użyj innej metody rejestracji.
       merge_success: Pomyślnie połączyłeś swoje konto Twitter z nowym kontem. woje stare konto Twitter zostało usunięte.
@@ -405,11 +405,11 @@ pl_PL:
     pending: Oczekujący
     user: Użytkownik
   room:
-    access_code_required: Aby dołączyć do pokoju wprowadź proszę poprawny kod
-    create_room: Stwórz pokój
-    create_room_error: Podczas tworzenia pokoju wystąpił błąd
-    create_room_success: Pokój utworzony pomyślnie
-    enter_the_access_code: Wprowadź kod dostępu do pokoju
+    access_code_required: Aby dołączyć do klasy wprowadź proszę poprawny kod
+    create_room: Stwórz klasę
+    create_room_error: Podczas tworzenia klasy wystąpił błąd
+    create_room_success: Klasa utworzony pomyślnie
+    enter_the_access_code: Wprowadź kod dostępu do klasy
     invalid_provider: Wprowadzony adres url jest nieprawidłowy. Sprawdź go proszę i spróbuj ponownie.
     invited: Zostałeś zaproszony do przyłączenia się
     invite_participants: Zaproś uczestników
@@ -418,20 +418,20 @@ pl_PL:
     login: Wejdź
     owner: Właściciel
     no_room:
-      description: "Wprowadź adres url lub id pokoju, do którego chcesz dołączyć"
+      description: "Wprowadź adres url lub id klasy, do którego chcesz dołączyć"
       edit_profile: Edytuj profil użytkownika
-      go_to: Idź do pokoju
+      go_to: Idź do klasy
       invalid_room_uid: Wprowadzony adres url lub id jest nieppoprawny.
-      placeholder: Adres url/id pokoju
-      no_recent_rooms: Nie dołączyłeś(łaś) ostatnio do żadnego pokoju
-      recent_rooms: "Przejdź do pokoju, do którego ostatnio dołaczyłeś(łaś)"
-      title: Dołącz do pokoju
+      placeholder: Adres url/id klasy
+      no_recent_rooms: Nie dołączyłeś(łaś) ostatnio do żadnego klasy
+      recent_rooms: "Przejdź do klasy, do którego ostatnio dołaczyłeś(łaś)"
+      title: Dołącz do klasy
     no_sessions: Ta klasa nie ma jeszcze sesji!
     recordings: Nagrania z klas.
     room_limit: Osiągnięto maksymalną dozwoloną liczbę klas.
-    room_limit_exceeded: "Przekroczyłeś dozwoloną liczbę klas. Proszę skasuj %{difference} klasę aby uzyskać dostęp do tego pokoju."
+    room_limit_exceeded: "Przekroczyłeś dozwoloną liczbę klas. Proszę skasuj %{difference} klasę aby uzyskać dostęp do tego klasy."
     sessions: Sesje
-    settings: Ustawienia Pokoju
+    settings: Ustawienia Klasy
     start: Start
     unavailable: Ta klasa jest obecnie niedostępna z powodu braku weryfikacji adresu e-mail właściciela.
     update_settings_error: Podczas aktualizacji ustawień klasy wystąpił błąd
@@ -451,7 +451,7 @@ pl_PL:
       title: Informacje o koncie
     delete:
       button: "Tak, chciałbym usunąć moje konto."
-      disclaimer: "Jeśli zdecydujesz się usunąć konto, <b> NIE </b> będzie można go odzyskać. Wszystkie informacje dotyczące konta, w tym ustawienia, pokoje i nagrania zostaną usunięte."
+      disclaimer: "Jeśli zdecydujesz się usunąć konto, <b> NIE </b> będzie można go odzyskać. Wszystkie informacje dotyczące konta, w tym ustawienia, klasy i nagrania zostaną usunięte."
       subtitle: Trwale usuń swoje konto
       title: Skasuj konto
     password:
