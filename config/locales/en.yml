@@ -36,7 +36,7 @@ en:
         enabled: Enabled
         info: Only allow authenticated users to join a room
         title: Require Authentication for Rooms
-        user-info: You must sign in to Greenlight to join this room
+        user-info: You must sign in to ClassManager to join this room
       branding:
         change: Change Image
         info: Change the branding image that appears in the top left corner
@@ -270,7 +270,7 @@ en:
       inclusion: is not included in the list
     no_provider:
       message: The site you are trying to access is not enabled
-      help: Please contact your system administrator to setup Greenlight
+      help: Please contact your system administrator to setup ClassManager
     not_found:
       message: Sorry! The page you are looking for does not exist.
       help: Is it possible its been removed?
@@ -287,9 +287,9 @@ en:
   expired_reset_token: Password reset link has expired!
   features:
     title: Features
-    rooms: Personalized Rooms
+    rooms: Personalized Class
     recordings: Recording Management
-    designs: Custom Designs
+    designs: Shared Whiteboard
     authentication: User Authentication
   footer:
     legal: Terms
@@ -324,9 +324,9 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your NaukaNet open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
+    about: "Welcome to your class manager centre and student invitations. You’re class data base, lessons recording will all be saved for you here"
     welcome: Welcome to NaukaNet.
-    video: Watch our tutorial on using ClassManager
+    video: Watch our tutorial on using ClassManager soon!
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of ClassManager, but your database isn't compatible.
   language_default: Default (browser language)
