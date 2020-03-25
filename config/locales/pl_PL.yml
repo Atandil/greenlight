@@ -295,7 +295,7 @@ pl_PL:
       title: Utwórz nową rolę
     create_room:
       access_code: Kod dostępu
-      access_code_placeholder: Generuj opcjonalny kod dostępu dla tego klasy
+      access_code_placeholder: Generuj opcjonalny kod dostępu dla tej klasy
       auto_join: Automatycznie dołącz mnie do klasy
       create: Stwórz klasę
       free_delete: Możesz w dowolnym momencie usunąć tą klasę.
@@ -311,7 +311,7 @@ pl_PL:
       confirm: "Czy jesteś pewny że chcesz usunąć %{room}?"
       delete: "Jestem pewien, usuń tą klasę."
       keep: Zostawiam go.
-      warning: <b>Nie</b> będziesz w stanie odzyskać tego klasy
+      warning: <b>Nie</b> będziesz w stanie odzyskać tej klasy
       recording_warning: "ani żadnego z %{recordings_num} powiązanych nagrań."
     invite_user:
       email_placeholder: Wprowadź adresy e-mail użytkowników (oddzielone przecinkami)
@@ -429,7 +429,7 @@ pl_PL:
     no_sessions: Ta klasa nie ma jeszcze sesji!
     recordings: Nagrania z klas.
     room_limit: Osiągnięto maksymalną dozwoloną liczbę klas.
-    room_limit_exceeded: "Przekroczyłeś dozwoloną liczbę klas. Proszę skasuj %{difference} klasę aby uzyskać dostęp do tego klasy."
+    room_limit_exceeded: "Przekroczyłeś dozwoloną liczbę klas. Proszę skasuj %{difference} klasę(klas) aby uzyskać dostęp do tej klasy."
     sessions: Sesje
     settings: Ustawienia Klasy
     start: Start
