@@ -127,7 +127,7 @@ pl_PL:
         uid: ID użytkownika
         username: Nazwa użytkownika
       title: Zarządzaj użytkownikami
-  add_to_google_calendar: "Dodaj do Kalendarza Google"
+  add_to_google_calendar: "Dodaj do Kalendarza"
   bigbluebutton: NaukaNet
   bigbluebutton_exception: "Ups, wystąpił błąd podczas rozpoczynania spotkania!"
   cancel: Anuluj
@@ -196,7 +196,7 @@ pl_PL:
     designs: Współdzielona Tablica
     authentication: Uwierzytelnianie Użytkownika
   footer:
-    powered_by: "Zasilany przez %{href}."
+    powered_by: " %{href}. NaukaNet jest obsługiwane przez SmartNet Solution"
   forgot_password:
     subtitle: Zapomniane hasło
     email: Email
