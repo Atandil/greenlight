@@ -237,13 +237,13 @@ pl_PL:
   footer:
     legal: Regulamin
     privpolicy: Polityka Prywatności
-    powered_by: " %{href}. NaukaNet jest obsługiwane przez SmartNet Solution"
+    powered_by: " %{href}  jest obsługiwane przez SmartNet Solution"
   forgot_password:
     subtitle: Zapomniane hasło
     email: Email
     submit: Prześlij
   go_back: Wróć
-  greenlight: Zarządzanie Klasami
+  greenlight: Zarządzanie Klasami NaukaNet
   header:
     all_recordings: Wszystkie nagrania
     dropdown:
