@@ -42,6 +42,18 @@ pl_PL:
         info: "Zmień logo, które pojawia się w lewym górnym rogu"
         placeholder: Adres URL obrazu...
         title: Obrazek logo
+      legal:
+        change: Zmień URL
+        info: Zmień link do Regulaminu
+        placeholder: Link Regulamin ...
+        title: Regulamin
+        invalid: Invalid URL
+      privpolicy:
+        change: Zmień URL
+        info:  Zmień link do Polityki Prywatności
+        placeholder: Privacy Policy URL...
+        title: Polityka Prywatności
+        invalid: Invalid URL
       cache:
         info: Usuwa zachowane w cache dane co skutkuje żądaniem zaktualizowania informacji
         title: Wyczyść cache dostawcy
@@ -86,11 +98,13 @@ pl_PL:
       title: Nagrania
       no_recordings: Na tym serwerze nie ma żadnych nagrań
     roles:
+      appear_in_share_list: Użytownik pojawia się na liście udostępniania klasy
       can_create_rooms: Może tworzyć klasy
       delete: Usuń rolę
       invalid_create: Wystąpił problem przy tworzeniu roli. Sprawdź proszę wartości i spróbuj ponownie
       invalid_order: Wystąpił problem z aktualizacją priorytetów roli. Sprawdź proszę wartości i spróbuj ponownie
       invalid_update: Wystąpił problem z aktualizacją uprawnień roli. Sprawdź proszę wartości i spróbuj ponownie
+      manage_rooms_recordings: Pozwól użytkownikom z tą rolą na zarządzanie klasami i nagraniami
       name: Nazwa roli
       new_role: Utwórz nową rolę
       role_has_users: "Liczba użytkowników posiadająca tą rolę - %{user_count}. Odbierz ją najpierw wszystkim użytkownikom, aby można było ją usunąć."
@@ -104,6 +118,31 @@ pl_PL:
       colour:
         title: Kolor roli
         info: Ustaw kolor który będzie skojarzony z tą rolą
+    room_configuration:
+      title: Konfiguracja Klas
+      mute:
+        info: Automatycznie wycisz uczestników po dołączeniu
+      require_moderator:
+        info: Wymagaj zgody moderatora NaukaNet, kiedy uczestnik próbuje dołączyć.
+      allow_any:
+        info: Pozwól każdemu uczestnikowi rozpocząć spotkanie (domyśnie tylko właściciel).
+      all_moderator:
+        info: Nadaj każdemu uczestnikowi prawa moderatora po dolączeniu.
+      options:
+        disabled: Wyłączone
+        enabled: Zawsze włączone
+        optional: Opcja
+    rooms:
+      title: Lista klas
+      table:
+        ended: "Zakończonych: %{session}"
+        id: ID
+        not_running: Nieaktywna
+        participants: Uczestnicy
+        running: Aktywna
+        started: "Rozpoczęte: %{session}"
+        status: Status
+        view: Widok
     title: Ustawienia organizacji
     users:
       invite: Zaproś użytkownika
@@ -196,6 +235,8 @@ pl_PL:
     designs: Współdzielona Tablica
     authentication: Uwierzytelnianie Użytkownika
   footer:
+    legal: Regulamin
+    privpolicy: Polityka Prywatności
     powered_by: " %{href}. NaukaNet jest obsługiwane przez SmartNet Solution"
   forgot_password:
     subtitle: Zapomniane hasło
@@ -276,7 +317,7 @@ pl_PL:
         more-info: "Aby zobaczyć Twoje nowe możliwości odwiedź %{url}"
         subtitle: "Uprawnienia przydzielono"
       verify_email:
-        welcome: "Witaj w osobistej przestrzeni, %{name}!"
+        welcome: "Witaj w systemie Zarządzania Klasami, %{name}!"
         success: "Wykorzystując %{bigbluebutton}, możesz tworzyć własne klasy do prowadzenia sesji i współpracy z innymi."
         username: "Twoja nazwa użytkownika to %{email}."
         verify: "Aby zweryfikować swoje konto, kliknij przycisk poniżej."
@@ -323,6 +364,10 @@ pl_PL:
       with: "Zaloguj się przy pomocy %{provider}"
       forgot_password: "Zapomniane hasło?"
     rename_recording:
+    remove_shared:
+      title: Czy jestes pewien, że chcesz usunąć tę klasę?
+      delete: Tak, usuń.
+      warning: Do tej klasy nie będziesz miał więcej dostępu.
     room_settings:
       title: Ustawienia klasy
       update: Aktualizuj ustawienia klasy
@@ -334,6 +379,20 @@ pl_PL:
       footer_text: Dostosowanie do Twojego klasy można wykonać w dowolnym momencie.
     rename_room:
       name_placeholder: Wprowadź nową nazwę klasy...
+    share_access:
+      footer: Udotępnienie klasy pozwala uczesnikom na rozpoczęcie lekcji i dostęp do nagrań
+      list: Udostostępnione dla
+      title: Udostępnianie klas
+      save: Zapisz zmiany
+      cancel_changes: Anuluj
+      select: Wybierz uczestnika
+    merge_user:
+      cancel: Anuluj
+      from: Konto do połączenia
+      title: Połącz konta
+      to: Konto Podstawowe
+      save: Połącz
+      footer: Wszystkie klasy zostaną przeniesione do konta podstawowego, a konto połączone skasowane
   name_update_success: Nazwa klasy została pomyślnie zmieniona!
   no_user_email_exists: "Brak określonego użytkownika z określonym adresem e-mail. Upewnij się, że wpisałeś go poprawnie."
   omniauth_error: Wystąpił błąd podczas uwierzytelniania z wykorzystaniem omniauth. Spróbuj ponownie lub skontaktuj się z administratorem!
@@ -403,7 +462,7 @@ pl_PL:
     admin: Administrator
     banned: Zablokowany
     pending: Oczekujący
-    user: Użytkownik
+    user: Uczestnik
   room:
     access_code_required: Aby dołączyć do klasy wprowadź proszę poprawny kod
     create_room: Stwórz klasę
@@ -432,6 +491,12 @@ pl_PL:
     room_limit_exceeded: "Przekroczyłeś dozwoloną liczbę klas. Proszę skasuj %{difference} klasę(klas) aby uzyskać dostęp do tej klasy."
     sessions: Sesje
     settings: Ustawienia Klasy
+    share: Zarządzaj dostępem
+    shared_by: Udostępnione przez %{email}
+    remove_shared_access_success: Usunięto udostępnioną klasę
+    remove_shared_access_error: Wystąpił błąd przy usuwaniu udostępnionej klasy
+    shared_access_success: Klasa udostępniona
+    shared_access_error: Nie udało się udostępnić klasy
     start: Start
     unavailable: Ta klasa jest obecnie niedostępna z powodu braku weryfikacji adresu e-mail właściciela.
     update_settings_error: Podczas aktualizacji ustawień klasy wystąpił błąd
