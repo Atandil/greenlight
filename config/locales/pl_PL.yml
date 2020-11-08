@@ -389,7 +389,7 @@ pl_PL:
       name_placeholder: Wprowadź nową nazwę klasy...
     share_access:
       footer: Udotępnienie klasy pozwala uczesnikom na rozpoczęcie lekcji i dostęp do nagrań
-      list: Udostostępnione dla
+      list: "Udostostępnione dla:"
       title: Udostępnianie klas
       save: Zapisz zmiany
       cancel_changes: Anuluj
