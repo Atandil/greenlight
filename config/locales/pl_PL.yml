@@ -363,6 +363,14 @@ pl_PL:
       or: lub
       with: "Zaloguj się przy pomocy %{provider}"
       forgot_password: "Zapomniane hasło?"
+    preupload:
+      change: Wymień prezentację
+      choose: Wybierz plik...
+      current: "Bierząca prezentacja:"
+      footer: W zależności od rozmiaru pliku prezentacji, system może potrzebować więcej czasu na uruchomienie spotkania.
+      invalid: Niewłaściwy format pliku.
+      title: Dodaj prezentację
+      use: Zatwierdź
     rename_recording:
     remove_shared:
       title: Czy jestes pewien, że chcesz usunąć tę klasę?
@@ -465,6 +473,7 @@ pl_PL:
     user: Uczestnik
   room:
     access_code_required: Aby dołączyć do klasy wprowadź proszę poprawny kod
+    add_presentation: Dodaj prezentację
     create_room: Stwórz klasę
     create_room_error: Podczas tworzenia klasy wystąpił błąd
     create_room_success: Klasa utworzony pomyślnie
@@ -486,6 +495,10 @@ pl_PL:
       recent_rooms: "Przejdź do klasy, do którego ostatnio dołaczyłeś(łaś)"
       title: Dołącz do klasy
     no_sessions: Ta klasa nie ma jeszcze sesji!
+    preupload_success: Prezentacja dodana pomyślnie
+    preupload_error: Wystąpił błąd przy dodawaniu prezentacji
+    preupload_remove_success: PRezentacja usunięta pomyśnie
+    preupload_remove_error: Wystąpił bład przy usuwaniu prezentacji
     recordings: Nagrania z klas.
     room_limit: Osiągnięto maksymalną dozwoloną liczbę klas.
     room_limit_exceeded: "Przekroczyłeś dozwoloną liczbę klas. Proszę skasuj %{difference} klasę(klas) aby uzyskać dostęp do tej klasy."
