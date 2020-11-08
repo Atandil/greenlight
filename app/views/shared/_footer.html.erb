@@ -15,17 +15,17 @@
 
 <footer class="footer pt-3">
   <p class="text-center mb-1">
-    <%= t("footer.powered_by", href: link_to(t("greenlight"), "https://naukanet.pl", target: "_blank", rel: "noopener")).html_safe %>
+    <%= t("footer.powered_by", href: link_to(t("greenlight"), "https://www.naukanet.pl/jak-to-dziala/", target: "_blank", rel: "noopener")).html_safe %>
     <% if legal_url.present? %>
       <span>
         |
-        <%= link_to(t("footer.legal"), legal_url) %>
+        <%= link_to(t("footer.legal"), legal_url, target: "_blank") %>
       </span>
     <% end %>
     <% if privpolicy_url.present? %>
       <span>
         |
-        <%= link_to(t("footer.privpolicy"), privpolicy_url)  %>
+        <%= link_to(t("footer.privpolicy"), privpolicy_url, target: "_blank")  %>
       </span>
     <% end %>
   </p>
